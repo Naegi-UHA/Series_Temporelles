@@ -34,13 +34,13 @@ int main() {
 
 
     vector<int> ground_truth;
-    testData.addTimeSeries(gsg.generateTimeSeries(11),3);
+    testData.addTimeSeries(gsg.generateTimeSeries(11),0);
     ground_truth.push_back(0);
 
-    testData.addTimeSeries(swg.generateTimeSeries(11),3);
+    testData.addTimeSeries(swg.generateTimeSeries(11),1);
     ground_truth.push_back(1);
 
-    testData.addTimeSeries(stg.generateTimeSeries(11),3);
+    testData.addTimeSeries(stg.generateTimeSeries(11),2);
     ground_truth.push_back(2);
 
 
